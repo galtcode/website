@@ -59,6 +59,11 @@ export default {
     },
   },
 
+  // tailwindcss config
+  tailwindcss: {
+    jit: true,
+  },
+
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
