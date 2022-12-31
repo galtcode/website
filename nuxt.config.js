@@ -1,7 +1,7 @@
 const title = 'GALT CODE'
 const url = 'galtcode.com'
 const image = 'https://galtcode.com/Galt-Code-01g-icon.png'
-const description = `At Galt Code, serving our clients needs by delivering value is our highest priority. We exist to alleviate those problems. Our job is to listen carefully, provide high-quality direction, and deliver value that makes your business easy, simple, and predictable.`
+const description = `At Galt Code, serving our clients by delivering value is our highest priority. Our job is to listen carefully, provide high-quality direction, and deliver value that makes your business easy, simple, and predictable.`
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode

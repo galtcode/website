@@ -87,7 +87,7 @@
           </div>
           <div class="divider"></div>
           <div class="grid lg:grid-cols-2">
-            <WelcomeItem icon="fa-comments" title="Lets Just Talk.">
+            <WelcomeItem icon="fa-comments" title="Can We Just Talk?">
               <div class="flex flex-col justify-center pr-3">
                 <p>Professional consultants love to deliver value</p>
                 <p>
