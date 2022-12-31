@@ -8,25 +8,42 @@
       referrerpolicy="no-referrer"
     />
 
-    <div class="bg-cyan-700 min-h-screen overflow-auto pb-32">
+    <div
+      class="bg-base min-h-screen overflow-auto pb-32 text-black dark:text-white"
+    >
       <div class="container max-w-5xl mx-auto px-4">
-        <div class="w-4/5 grid md:grid-cols-2 mt-32">
-          <div>
-            <img src="/Galt-Code-01g-icon.png" />
-          </div>
+        <div class="grid md:grid-cols-2 mt-32">
           <h1
-            class="text-white text-6xl font-bold flex flex-col justify-center items-center"
+            class="text-6xl font-bold flex flex-col justify-center items-center"
           >
             Maximizing efficiency and profitability with<br /><span
-              class="text-neutral"
+              class="text-primary"
               >custom software.</span
             >
           </h1>
+          <div class="hidden md:block">
+            <img src="/Galt-Code-01g-icon.png" />
+          </div>
         </div>
-        <div class="my-10 ml-6">
-          <h3 class="text-gray-300">
-            We can build web applications that are<br />
-            <strong class="text-white">fast, beautiful, & secure</strong>
+        <div class="my-10 grid md:grid-cols-2 justify-center items-center">
+          <div class="flex flex-col justify-center">
+            <div class="flex justify-center md:hidden">
+              <img
+                class="w-screen max-w-[20rem]"
+                src="/Galt-Code-01g-icon.png"
+              />
+            </div>
+            <div class="flex justify-center">
+              <a
+                class="btn btn-primary my-3 max-w-[20rem]"
+                href="mailto:admin@galtcode.com"
+                >Schedule a Meeting</a
+              >
+            </div>
+          </div>
+          <h3 class="text-gray-600 dark:text-gray-300 text-3xl">
+            We build web applications that are<br />
+            <strong>fast, beautiful, & secure</strong>
           </h3>
         </div>
         <div class="grid gap-10 py-3">
@@ -39,11 +56,11 @@
                 </p>
                 <p>
                   We will work with you through customizations, updates, content
-                  management, and server maintenance.
+                  management, and server maintenance
                 </p>
               </div>
             </WelcomeItem>
-            <div class="hidden lg:block mockup-window border bg-base-300">
+            <div class="hidden lg:block mockup-window border bg-secondary">
               <div class="flex justify-center px-4 py-16 bg-base-200"></div>
             </div>
           </div>
@@ -62,7 +79,9 @@
                   way too many software tools for your small business, or just
                   can't find the right tool for your business
                 </p>
-                <p class="font-bold">We can build it.</p>
+                <h5 class="font-bold text-primary text-2xl">
+                  We can build it.
+                </h5>
               </div>
             </WelcomeItem>
           </div>
@@ -70,25 +89,24 @@
           <div class="grid lg:grid-cols-2">
             <WelcomeItem icon="fa-comments" title="Lets Just Talk.">
               <div class="flex flex-col justify-center pr-3">
+                <p>Professional consultants love to deliver value</p>
                 <p>
-                  Professional consultants love to deliver value. We understand
-                  that the goal is to achieve results for your business.
+                  We understand that the goal is to achieve results for your
+                  business
                 </p>
-                <button class="btn">Contact or Schedule a Meeting</button>
+                <a class="btn btn-primary" href="mailto:admin@galtcode.com"
+                  >Schedule a Meeting</a
+                >
               </div>
             </WelcomeItem>
             <div class="hidden lg:block max-w-[40rem]">
               <div class="chat chat-start">
-                <div class="chat-image avatar">
-                  <div class="w-10 rounded-full">
-                    <img src="https://placeimg.com/192/192/people" />
-                  </div>
-                </div>
+                <i class="chat-image w-10 fa fa-user"></i>
                 <div class="chat-header">
                   <!-- Obi-Wan Kenobi -->
                   <time class="text-xs opacity-50">12:45</time>
                 </div>
-                <div class="chat-bubble">
+                <div class="chat-bubble chat-bubble-secondary">
                   I am not sure what I need. Can we just talk?
                 </div>
                 <div class="chat-footer opacity-50">Delivered</div>
@@ -96,14 +114,14 @@
               <div class="chat chat-end">
                 <div class="chat-image avatar">
                   <div class="w-10 rounded-full">
-                    <img src="/Galt-Code-01g-icon.png" class="bg-white" />
+                    <img src="/Galt-Code-01g-icon.png" />
                   </div>
                 </div>
                 <div class="chat-header">
                   GALT CODE
                   <time class="text-xs opacity-50">12:46</time>
                 </div>
-                <div class="chat-bubble">
+                <div class="chat-bubble chat-bubble">
                   Yes! We can provide expert information regarding the solutions
                   you need to improve your business.
                 </div>
