@@ -66,7 +66,7 @@
             <div class="hidden lg:block">
               <img class="rounded opacity-75" src="/api-g1021c9066_1280.jpg" />
             </div>
-            <WelcomeItem icon="fa-rocket" title="I need a Custom Software.">
+            <WelcomeItem icon="fa-rocket" title="I need Custom Software.">
               <div class="flex flex-col justify-center pr-3">
                 <p>
                   Whether you have a Software-as-a-Service (SaaS) idea, using
