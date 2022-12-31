@@ -22,16 +22,13 @@
             >
           </h1>
           <div class="hidden md:block">
-            <img src="/Galt-Code-01g-icon.png" />
+            <img src="/icon.png" />
           </div>
         </div>
         <div class="my-10 grid md:grid-cols-2 justify-center items-center">
           <div class="flex flex-col justify-center">
             <div class="flex justify-center md:hidden">
-              <img
-                class="w-screen max-w-[20rem]"
-                src="/Galt-Code-01g-icon.png"
-              />
+              <img class="w-screen max-w-[20rem]" src="/icon.png" />
             </div>
             <div class="flex justify-center">
               <a
@@ -114,7 +111,7 @@
               <div class="chat chat-end">
                 <div class="chat-image avatar">
                   <div class="w-10 rounded-full">
-                    <img src="/Galt-Code-01g-icon.png" />
+                    <img src="/icon.png" />
                   </div>
                 </div>
                 <div class="chat-header">
