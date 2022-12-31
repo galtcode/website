@@ -121,7 +121,7 @@
                   GALT CODE
                   <time class="text-xs opacity-50">12:46</time>
                 </div>
-                <div class="chat-bubble chat-bubble">
+                <div class="chat-bubble chat-bubble-primary">
                   Yes! We can provide expert information regarding the solutions
                   you need to improve your business.
                 </div>
