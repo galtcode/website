@@ -11,6 +11,9 @@
     <div
       class="bg-base min-h-screen overflow-auto pb-32 text-black dark:text-white"
     >
+      <div class="flex justify-center">
+        <a href="/blog">Blog</a>
+      </div>
       <div class="container max-w-5xl mx-auto px-4">
         <div class="grid md:grid-cols-2 mt-32">
           <h1
