@@ -107,6 +107,9 @@ export default {
 
   googleAnalytics: {
     id: 'G-4TRFQP6W0J',
+    autoTracking: {
+      screenview: true,
+    },
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
