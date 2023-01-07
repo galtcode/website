@@ -21,14 +21,16 @@
               >custom software.</span
             >
           </h1>
-          <div class="hidden md:block">
-            <img src="/icon.png" />
+          <div class="hidden md:flex items-center">
+            <div>
+              <img width="496" height="496" src="/icon.png" />
+            </div>
           </div>
         </div>
         <div class="my-10 grid md:grid-cols-2 justify-center items-center">
           <div class="flex flex-col justify-center">
-            <div class="flex justify-center md:hidden">
-              <img class="w-screen max-w-[20rem]" src="/icon.png" />
+            <div class="flex w-screen max-w-[20rem] justify-center md:hidden">
+              <img width="320" height="320" class="" src="/icon.png" />
             </div>
             <div class="flex justify-center">
               <a
